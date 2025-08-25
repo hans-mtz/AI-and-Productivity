@@ -1,0 +1,51 @@
+## Data
+
+### CSBC
+
+StatCan's Canadian Survey of Business Conditions (CSBC) included a section regarding the use of Artificial Intelligence (AI) by canadian firms in the third quarter of 2024. This survey is conducted quarterly but not all editions of the survey contain these questions. 
+
+In the section of this survey, firms are asked if they are planning to use AI and specify which type, including Large Language Models (LLMs). In addition, firms are asked what changes are they planning to implement to make use of AI. Answers include train current staff in AI, Hire staff trained in AI, Use vendor or consulting services to install or integrate AI.
+
+Similar questions were included in the second quarter of 2024. In this edition, firms were asked if they have used AI, whay type, and if the use of AI reduced tasks previously performed by employees.
+
+During the first quarter of 2024, the survey focused on Generative AI. Were business were using, had plans, considered, not considered using AI. Business were also asked if how generative AI created value for them. The options included:
+
+- Accelerate creative content
+- Increase automation tasks
+- Automate tasks to replace employees
+- Improve client or customer experience
+
+among others.
+
+### SDTIU
+
+Survey of Digital Techonology and Internet Use is conducted ocassionally. 2023 editions was released in september 2024. The purpose of the SDTIU is to measure the impact of digital technologies on the operations of Canadian enterprises.
+
+The 2023 edition included a section on Artificial Intelligence (AI). The questionnaire specificly asks what type of AI the firms is using, including generative AI. For what purpose the firm uses AI (e.g. marketing, production, administration, logistics, human resources management). In addition, the enterprises are asked the level of usage (e.g. by a few employees, few teams, most or all teams), and the reasons the enterprise has not incorporated AI if they have not.
+
+
+### SIBS
+
+StatCan's Survey of of Innovation and Business Strategy, 2022 (SIBS) include a question regarding the use of artificial intelligence in canadian businesses. According to StatCan, the objective of the SIBS *is to collect information on the strategic decisions, innovation activities, operational tactics and global value chain activities of businesses in Canada.*
+
+The specific question is:
+*In 2022, did this business use any of the following types of advanced technologies?*
+
+- Artificial Intelligence (AI)
+
+Does not specify which type though (Machine Learning, Large Language Models). However, the last iteration of this survey was collected from January 17 to March 31, 2023. ChatGPT debuted in November, 2022. It was super fresh. Previous iterations of the survey that include the AI question are 2019 and 2017.
+
+Access to this survey would require accessing the Research Data Cente (RDC). There is one in the Social Science Building at Western.
+
+### SAT
+
+The Survey of Advanced Techonology of 2022 asks canadian enterprises about their usage of artificial intelligence. However, it does not include generative AI or large language modelds; it focuses on machine learning and natural language recognition among others.
+
+There is not a more recent version available because this is an occasional survey.
+
+
+
+
+
+
+

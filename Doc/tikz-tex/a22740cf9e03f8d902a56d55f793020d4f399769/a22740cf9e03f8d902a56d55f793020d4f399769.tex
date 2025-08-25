@@ -1,0 +1,46 @@
+\documentclass[tikz]{standalone}
+% \usepackage{tikz} % already loaded by the documentclass
+\usepackage{adjustbox}
+
+\begin{document}
+%%| additionalPackages: \usepackage{adjustbox}
+
+\usetikzlibrary{shapes.geometric, arrows}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered,draw, thick]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw, thick]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text justified, draw, thick]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+\begin{tikzpicture}[node distance=2cm]
+
+% Nodes
+\node (start) [startstop] {Start: Employee Pool};
+\node (access) [decision, below of=start, yshift=-1cm] {AI Access?};
+\node (noaccess) [process, right of=access, xshift=5cm] {Control Group: No AI Access};
+\node (approach) [decision, below of=access, yshift=-2cm] {Interaction Approach?};
+\node (direct) [decision, left of=approach, xshift=-5cm] {Direct Approach};
+\node (collaborative) [decision, right of=approach, xshift=5cm] {Collaborative Approach};
+
+\node (directhigh) [process, below of=direct, yshift=-1.5cm, xshift=-3cm] {AI Direct \\+ Higher-Order Tasks};
+\node (directlow) [process, below of=direct, yshift=-1.5cm, xshift=3cm] {AI Direct \newline + Lower-Order Tasks};
+
+\node (collabhigh) [process, below of=collaborative, yshift=-1.5cm, xshift=-3.5cm] {AI Collaborative \ + Higher-Order Tasks};
+\node (collablow) [process, below of=collaborative, yshift=-1.5cm, xshift=3.5cm] {AI Collaborative \ + Lower-Order Tasks};
+
+% Arrows
+\draw [arrow] (start) -- (access);
+\draw [arrow] (access.east) -- (noaccess.west);
+\draw [arrow] (access.south) -- (approach);
+\draw [arrow] (approach.west) -- (direct.east);
+\draw [arrow] (approach.east) -- (collaborative.west);
+
+\draw [arrow] (direct.south) -- (directhigh);
+\draw [arrow] (direct.south) -- (directlow);
+
+\draw [arrow] (collaborative.south) -- (collabhigh);
+\draw [arrow] (collaborative.south) -- (collablow);
+
+\end{tikzpicture}
+\end{document}
+      

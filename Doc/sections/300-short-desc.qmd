@@ -1,0 +1,32 @@
+## Main Objective
+
+The purpose of the experiment is to measure the gains, if any, in worker productivity by adopting a generative AI tool. Ideally, we would like to compare the output of measurable tasks of employees with access and no access to a generative AI tool. To obtain reliable causal estimates, employees with varying levels of skill would randomly be assigned access to a generative AI tool to complete tasks with different levels of difficulty.
+
+### Secondary objectives
+
+A second objective is to evaluate the productivity gains of different approaches to using generative AI. Employees might adopt either a direct or a collaborative approach in their interaction with the tool. In a direct approach, employees aim to resolve their tasks as quickly as possible by leveraging AI-generated solutions. In contrast, a collaborative approach involves engaging in an iterative dialogue with the AI to refine and improve the task outcome.
+
+For example, in a direct approach, an employee might ask the AI to generate a complete report draft and use it with minimal edits. In a collaborative approach, the employee might iteratively refine the report by asking the AI for suggestions, reviewing its output, and incorporating their own insights.
+
+Finally, the study might also look into the trade-off between productivity gains and employees' skill development by examining the types of cognitive subtasks that employees delegate to generative AI. If employees delegate higher-order cognitive tasks such as creating and analyzing, as opposed to lower-order tasks like remembering and understanding, it is likely that although output might increase, generative AI could hinder the development of employee skills. 
+
+This trade-off is significant for firms because skill development is crucial for long-term organizational growth and adaptability. Over-reliance on generative AI for higher-order tasks might lead to a workforce that is less capable of independent critical thinking and problem-solving. Firms must balance short-term productivity gains with the need to cultivate a skilled and versatile workforce that can adapt to future challenges and innovate beyond the capabilities of current AI tools.
+
+To incorporate the second and third objectives into the experiment, employees would have to be randomly assigned between a groups with access and no access to AI with all the combinations of type interaction approach and level of cognitive task.
+
+## Resources
+
+The ideal experiment would require an enterprise that has not introduced gen AI tools to their employees but is planning to do so. In this enterprise, the experiment might be conducted in a group of employees completing the same task with an easily measurable output. Employees might differ in their skill/expertise level. The experiment can be conducted during four to six weeks depending on the availability. 
+
+Before the experiment, measures of employees skill or expertise are needed as well as records of output of the tasks that employees would use the gen AI tool to complete.
+
+## Next steps
+
+1. Define scope of project
+2. Choose group of employees and task
+3. Assign employees to control and treatment groups (acces/no access)
+4. Measure output of different groups during the experiment weeks
+5. Collect and summarize results
+6. After experiment is done, all employees would be free to access the AI too (of course)
+
+If the enterprise is currently using an AI tool, the experiment could be reversed and explore the difference in productivity between a group of emloyees that is restricted to use the gen AI tool.

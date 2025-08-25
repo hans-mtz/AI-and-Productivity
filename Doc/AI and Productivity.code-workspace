@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "manuscript-template-vscode",
+			"path": "../manuscript-template-vscode"
+		}
+	],
+	"settings": {}
+}

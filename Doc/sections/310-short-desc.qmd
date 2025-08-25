@@ -1,0 +1,129 @@
+
+## Main Objective
+
+The goal of the experiment is to measure whether using a generative AI tool improves worker productivity. We aim to compare the outputs of employees who have access to the tool against those who do not.
+
+To obtain reliable causal estimates, employees with varying levels of skill will be randomly assigned to either an AI-access group or a no-access group. They will complete tasks of different levels of difficulty, allowing us to study both the overall effect of AI access and how effects vary across tasks and skill levels.
+
+Productivity will be measured by metrics such as the volume of output, task completion time, and independent quality assessments (e.g., supervisor ratings or standardized rubrics).
+
+We will calculate the sample size necessary to detect meaningful productivity differences, ensuring sufficient statistical power. Based on preliminary assumptions, we estimate needing approximately 72 employee-weeks of data to achieve 80% power at a 5% significance level. Depending on the number of available employees, the experiment may need to run between one and four weeks to collect sufficient observations.
+
+## Secondary Objectives
+
+A second objective is to evaluate different ways employees might use generative AI. We distinguish two main interaction approaches:
+- Direct use: Employees use AI-generated outputs quickly and with minimal modifications.
+- Collaborative use: Employees iteratively interact with the AI, refining outputs and incorporating their own insights.
+
+For example, a direct user might ask the AI to draft a full report and submit it with few edits, while a collaborative user would refine the report over several rounds of suggestions and edits.
+
+A third objective is to examine the potential trade-off between productivity gains and employee skill development. If employees delegate higher-order cognitive tasks (e.g., creating, analyzing) to AI, they might become more productive in the short term but develop fewer independent problem-solving skills. Conversely, delegating only lower-order tasks (e.g., remembering, understanding) might allow skill development to continue.
+
+This trade-off is critical for firms because long-term growth and innovation depend on maintaining a workforce with strong critical thinking and problem-solving abilities.
+
+To address these secondary objectives, the experiment will randomly assign employees not only to AI-access and no-access groups but also to different combinations of:
+- Interaction approaches (direct vs. collaborative)
+- Cognitive task levels (higher-order vs. lower-order)
+
+Participation in the experiment will be voluntary, and employees will be informed that their performance data will be used only for research purposes, without any negative consequences.
+
+## Resources Needed
+
+Ideally, the experiment would take place in an organization that has not yet introduced generative AI but plans to do so.
+
+The experiment would focus on a group of employees performing similar tasks with measurable outputs, such as:
+- Written reports
+- Coding assignments
+- Customer service responses
+- Data entry or categorization
+
+Employees may differ in expertise or skill level. Baseline data collection would occur before the intervention to measure:
+- Existing skill levels (e.g., experience, performance history)
+- Historical output for comparable tasks
+
+The experimental phase would last four to six weeks, depending on operational constraints and sample size needs.
+
+## Next Steps
+
+1. Define the project scope and finalize objectives.
+2. Select a group of employees and identify the tasks.
+3. Randomly assign employees to control (no AI) and treatment (AI access) groups, along with interaction approach and cognitive task level variations.
+4. Measure and record outputs during the experimental period.
+5. Analyze results to evaluate the impact of AI use, interaction style, and task delegation level.
+6. Share AI access with all employees after the experiment concludes.
+
+If the enterprise is already using a generative AI tool, the experiment could be reversed: temporarily restrict AI access for a group of employees to measure the effect of *removing* AI assistance on productivity.
+
+## Employee Assignment Flow {.appendix}
+
+```{mermaid}
+flowchart TD
+    A[Start: Employee Pool] --> B{Random Assignment: AI Access?}
+    B -- Yes --> C{Interaction Approach?}
+    B -- No --> F[Control Group: No AI Access]
+
+    C -- Direct --> D{Cognitive Task Level?}
+    C -- Collaborative --> E{Cognitive Task Level?}
+
+    D -- Higher-Order --> D1[AI Direct + Higher-Order Tasks]
+    D -- Lower-Order --> D2[AI Direct + Lower-Order Tasks]
+
+    E -- Higher-Order --> E1[AI Collaborative + Higher-Order Tasks]
+    E -- Lower-Order --> E2[AI Collaborative + Lower-Order Tasks]
+```
+
+
+# Appendix: Example of Power Calculation {.appendix}
+
+### Assumptions:
+- Outcome: Number of tasks completed per week.
+- Typical output without AI: 10 tasks/week.
+- Expected output with AI: 12 tasks/week (+20% gain).
+- Standard deviation (SD): 3 tasks.
+- Significance level: 5% ($\alpha = 0.05$).
+- Desired power: 80% ($\beta = 0.2$).
+
+### Sample Size Formula:
+To compare two independent means:
+
+$$
+n = \left( \frac{2 \times (z_{1-\alpha/2} + z_{1-\beta})^2 \times \sigma^2}{\Delta^2} \right)
+$$
+
+Where:
+- $z_{1-\alpha/2} = 1.96$ (for 95% confidence)
+- $z_{1-\beta} = 0.84$ (for 80% power)
+- $\sigma = 3$ (standard deviation)
+- $\Delta = 2$ (difference in means: 12 - 10)
+
+Substituting values:
+
+$$
+n = \left( \frac{2 \times (1.96+0.84)^2 \times 9}{4} \right)
+$$
+
+$$
+n = \left( \frac{2 \times (2.8)^2 \times 9}{4} \right)
+$$
+
+$$
+n = \left( \frac{2 \times 7.84 \times 9}{4} \right)
+$$
+
+$$
+n = \left( \frac{141.12}{4} \right) = 35.28
+$$
+
+Thus, approximately 36 employees per group are needed.
+
+### Experiment Duration Options
+
+| Situation | Number of Employees | Experiment Duration Needed |
+|:---|:---|:---|
+| Ideal | 72 employees | 1 week |
+| Fewer employees | 36 employees | 2 weeks |
+| Very few employees | 18 employees | 4 weeks |
+
+Thus, depending on availability, the experiment duration may vary to reach the necessary number of employee-weeks.
+
+
