@@ -63,6 +63,8 @@ Access to the microdata of these surveys and linkages between datasets are restr
 
 ## Appendix {.appendix}
 
+{{< include sections/400-id-strats.qmd >}}
+
 {{< include sections/100-lit-rev.qmd >}}
 
 {{< include sections/200-data.qmd >}}
