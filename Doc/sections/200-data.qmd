@@ -1,5 +1,13 @@
 ## Data
 
+In terms of data, most individual-level studies rely on experimental data. An experiment could be an avenue for this paper, depending on the question we choose to tackle. The ideal experiment would involve a Canadian enterprise introducing AI assistance tools to its employees. This setup would allow us to control the treatment assignment (who gets access to AI tools) and measure the effects of AI on productivity. To explore the nuances of the effect of AI on productivity, the experiment will require measures of employees' skill levels and tasks with varying levels of difficulty.
+
+Alternatively, an experiment can be conducted at Western University using students as participants. The experiment could involve coding exercises in various programming languages, ranging from popularly used ones like Python and R to less common ones like Fortran or Stata. Popular programming languages should represent a larger share of the gen AI training data set. It is expected that students with access to gen AI would perform better with popular languages such as Python and R, but their performance might decline with less familiar languages like Fortran or Stata. To account for skill levels, proxies such as students' grades in relevant courses could be used. We can also ask their familiarity with each language. The experiment could be conducted at the Ivey Behavioral Lab.
+
+For firm-level data, Statistics Canada (StatCan) conducts several surveys that inquire about firms' use of AI, such as the Canadian Survey of Business Conditions (CSBC) and the Survey of Digital Technology and Internet Use (SDTIU). These surveys can potentially be linked by StatCan to other datasets they maintain, such as the Financial and Taxation Statistics for Enterprises (AFTS). Linking these datasets could help to establish a connection between AI usage and different measures of productivity. This linkage would allow for a more comprehensive analysis of how generative AI impacts firm-level productivity.
+
+Access to the microdata of these surveys and linkages between datasets are restricted to the Research Data Centers (RDCs). There is one in the Social Science building in Western, however, obtaining access to this center and the datasets is a lengthy process.
+
 ### CSBC
 
 StatCan's Canadian Survey of Business Conditions (CSBC) included a section regarding the use of Artificial Intelligence (AI) by canadian firms in the third quarter of 2024. This survey is conducted quarterly but not all editions of the survey contain these questions. 
